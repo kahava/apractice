@@ -10,7 +10,7 @@ const generateApiKey = (api_key) =>
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send({ anna: "safina", kahava: "C.E.O" });
+  res.send({ myfirstApi: "testApiNodejs", simpleProject: "Product listing" });
 });
 
 //Get prodect Details
